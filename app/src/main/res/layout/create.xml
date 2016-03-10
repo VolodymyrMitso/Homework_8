@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/d_size_20dp">
+    
+    <EditText
+        style="@style/stl_textView_AC"
+
+        android:id="@+id/et_FirstName_AC"
+        android:hint="@string/s_firstName_AC"
+        android:maxLength="13"
+
+        android:layout_marginBottom="@dimen/d_size_20dp"/>
+
+    <EditText
+        style="@style/stl_textView_AC"
+
+        android:id="@+id/et_LastName_CA"
+        android:hint="@string/s_lastName_AC"
+        android:maxLength="13"
+
+        android:layout_marginBottom="@dimen/d_size_20dp"/>
+
+    <EditText
+        style="@style/stl_textView_AC"
+
+        android:id="@+id/et_Gender_CA"
+        android:hint="@string/s_gender_AC"
+        android:maxLength="1"
+
+        android:layout_marginBottom="@dimen/d_size_20dp"/>
+
+    <EditText
+        style="@style/stl_textView_AC"
+
+        android:id="@+id/et_Age_CA"
+        android:hint="@string/s_age_AC"
+        android:maxLength="2"
+
+        android:layout_marginBottom="@dimen/d_size_20dp"/>
+
+    <EditText
+        style="@style/stl_textView_AC"
+
+        android:id="@+id/et_PhoneNumber_CA"
+        android:hint="@string/s_phoneNumber_AC"
+        android:maxLength="13"
+
+        android:layout_marginBottom="@dimen/d_size_20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/c_button_AC"
+
+        android:id="@+id/btn_Create_CA"
+
+        android:textAllCaps="false"
+        android:textSize="@dimen/d_textSize_23sp"
+        android:text="@string/s_create_AC"
+
+        android:layout_marginLeft="@dimen/d_size_75dp"
+        android:layout_marginRight="@dimen/d_size_75dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

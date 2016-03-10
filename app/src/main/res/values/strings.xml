@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Homework_8</string>
+
+    <string name="s_menuHint">Add new person</string>
+
+    <string name="s_actionBarTitle_AC">Create person</string>
+    <string name="s_actionBarTitle_AI">Show person</string>
+
+    <string name="s_firstName_AC">First name</string>
+    <string name="s_lastName_AC">Last name</string>
+    <string name="s_gender_AC">gender</string>
+    <string name="s_age_AC">age</string>
+    <string name="s_phoneNumber_AC">phone number</string>
+    <string name="s_create_AC">Create</string>
+
+    <string name="s_firstName_AI">First name:</string>
+    <string name="s_lastName_AI">Last name:</string>
+    <string name="s_gender_AI">gender:</string>
+    <string name="s_age_AI">age:</string>
+    <string name="s_phoneNumber_AI">phone number:</string>
+
+    <string name="s_warning_emptyFields">
+        Necessary fields are empty:\n
+        - enter First name\n
+        - enter phone number
+    </string>
+
+    <string name="s_warning_gender">
+        Incorrect input - gender:\n
+        - enter gender\n
+        - [m] - male\n
+        - [f] - female
+    </string>
+
+    <string name="s_warning_ageInput">
+        Incorrect input - age:\n
+        - enter age\n
+        - use only numbers
+    </string>
+
+    <string name="s_warning_ageQuantity">
+        Incorrect input - age:\n
+        - enter age\n
+        - from [21] to [65]
+    </string>
+
+    <string name="s_warning_phoneNumber">
+        Incorrect input - phone number:\n
+        - enter phone number\n
+        - example [+380501234567]\n
+        - example [111]
+    </string>
+
+</resources>

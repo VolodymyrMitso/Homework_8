@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="c_statusBar">#000000</color>
+    <color name="c_actionBar">#0d47a1</color>
+
+    <color name="c_recyclerView">#607d8b</color>
+
+    <color name="c_actionBarTitle_AM">#ffffff</color>
+
+    <color name="c_actionBarTitle_AC">#ffffff</color>
+    <color name="c_textView_AC">#00bcd4</color>
+    <color name="c_button_AC">#d32f2f</color>
+
+    <color name="c_actionBarTitle_AI">#ffffff</color>
+    <color name="c_textView_AI">#64dd17</color>
+    <color name="c_textViewStroke_AI">#000000</color>
+    <color name="c_text_AI">#000000</color>
+
+    <color name="c_card">#ffc107</color>
+    <color name="c_card_emptyFields">#d32f2f</color>
+    <color name="c_cardText">#000000</color>
+
+</resources>

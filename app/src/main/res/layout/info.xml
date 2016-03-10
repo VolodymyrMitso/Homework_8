@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/d_size_30dp"
+    android:paddingLeft="@dimen/d_size_20dp"
+    android:paddingRight="@dimen/d_size_20dp">
+
+    <Space
+        android:layout_width="@dimen/d_size_20dp"
+        android:layout_height="@dimen/d_size_50dp"
+        android:id="@+id/space1_AI"
+        android:layout_centerHorizontal="true" />
+
+   <TextView
+       style="@style/stl_textView_key_AI"
+
+       android:text="@string/s_firstName_AI"
+
+       android:layout_alignBottom="@+id/space1_AI"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true"
+       android:layout_toLeftOf="@id/space1_AI"
+       android:layout_toStartOf="@id/space1_AI" />
+
+    <TextView
+        style="@style/stl_textView_value_AI"
+
+        android:id="@+id/tv_FirstName_AI"
+
+        android:layout_alignBottom="@+id/space1_AI"
+        android:layout_toRightOf="@id/space1_AI"
+        android:layout_toEndOf="@id/space1_AI"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Space
+        android:layout_width="@dimen/d_size_20dp"
+        android:layout_height="@dimen/d_size_50dp"
+        android:id="@+id/space2_AI"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/space1_AI"
+        android:layout_marginTop="@dimen/d_size_20dp"/>
+
+    <TextView
+        style="@style/stl_textView_key_AI"
+
+        android:text="@string/s_lastName_AI"
+
+        android:layout_alignBottom="@+id/space2_AI"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@id/space2_AI"
+        android:layout_toStartOf="@id/space2_AI" />
+
+    <TextView
+        style="@style/stl_textView_value_AI"
+
+        android:id="@+id/tv_LastName_AI"
+
+        android:layout_alignBottom="@+id/space2_AI"
+        android:layout_toRightOf="@id/space2_AI"
+        android:layout_toEndOf="@id/space2_AI"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Space
+        android:layout_width="@dimen/d_size_20dp"
+        android:layout_height="@dimen/d_size_50dp"
+        android:id="@+id/space3_AI"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/space2_AI"
+        android:layout_marginTop="@dimen/d_size_20dp"/>
+
+    <TextView
+        style="@style/stl_textView_key_AI"
+
+        android:text="@string/s_gender_AI"
+
+        android:layout_alignBottom="@+id/space3_AI"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@id/space3_AI"
+        android:layout_toStartOf="@id/space3_AI" />
+
+    <TextView
+        style="@style/stl_textView_value_AI"
+
+        android:id="@+id/tv_Gender_AI"
+
+        android:layout_alignBottom="@+id/space3_AI"
+        android:layout_toRightOf="@id/space3_AI"
+        android:layout_toEndOf="@id/space3_AI"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Space
+        android:layout_width="@dimen/d_size_20dp"
+        android:layout_height="@dimen/d_size_50dp"
+        android:id="@+id/space4_AI"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/space3_AI"
+        android:layout_marginTop="@dimen/d_size_20dp"/>
+
+    <TextView
+        style="@style/stl_textView_key_AI"
+
+        android:text="@string/s_age_AI"
+
+        android:layout_alignBottom="@+id/space4_AI"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@id/space4_AI"
+        android:layout_toStartOf="@id/space4_AI" />
+
+    <TextView
+        style="@style/stl_textView_value_AI"
+
+        android:id="@+id/tv_Age_AI"
+
+        android:layout_alignBottom="@+id/space4_AI"
+        android:layout_toRightOf="@id/space4_AI"
+        android:layout_toEndOf="@id/space4_AI"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Space
+        android:layout_width="@dimen/d_size_20dp"
+        android:layout_height="@dimen/d_size_50dp"
+        android:id="@+id/space5_AI"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/space4_AI"
+        android:layout_marginTop="@dimen/d_size_20dp"/>
+
+    <TextView
+        style="@style/stl_textView_key_AI"
+
+        android:text="@string/s_phoneNumber_AI"
+
+        android:layout_alignBottom="@+id/space5_AI"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@id/space5_AI"
+        android:layout_toStartOf="@id/space5_AI" />
+
+    <TextView
+        style="@style/stl_textView_value_AI"
+
+        android:id="@+id/tv_PhoneNumber_AI"
+
+        android:layout_alignBottom="@+id/space5_AI"
+        android:layout_toRightOf="@id/space5_AI"
+        android:layout_toEndOf="@id/space5_AI"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

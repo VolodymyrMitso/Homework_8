@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="thm_app" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/c_actionBar</item>
+        <item name="colorPrimaryDark">@color/c_statusBar</item>
+    </style>
+
+    <style name="stl_textView_AC">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:background">@color/c_textView_AC</item>
+
+        <item name="android:textSize">@dimen/d_textSize_25sp</item>
+        <item name="android:paddingLeft">@dimen/d_size_10dp</item>
+    </style>
+
+    <style name="stl_textView_key_AI">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textSize">@dimen/d_textSize_23sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/c_text_AI</item>
+    </style>
+
+    <style name="stl_textView_value_AI">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/d_size_50dp</item>
+        <item name="android:background">@drawable/sh_tv_ai</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/d_textSize_20sp</item>
+        <item name="android:textColor">@color/c_text_AI</item>
+    </style>
+
+</resources>
+
+
+

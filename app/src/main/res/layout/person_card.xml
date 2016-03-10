@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d_size_60dp"
+        card_view:cardBackgroundColor="@color/c_card"
+
+        android:id="@+id/cv_Card_PC"
+
+        android:layout_marginLeft="@dimen/d_size_10dp"
+        android:layout_marginRight="@dimen/d_size_10dp"
+        android:layout_marginTop="@dimen/d_size_10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tv_FirstName_AC"
+            android:clickable="true"
+
+            android:textColor="@color/c_cardText"
+            android:textSize="@dimen/d_textSize_25sp"
+
+            android:layout_marginLeft="@dimen/d_size_20dp"
+            android:layout_gravity="center_vertical|left" />
+
+        <Button
+            android:layout_width="@dimen/d_size_27dp"
+            android:layout_height="@dimen/d_size_27dp"
+            android:background="@drawable/ic_delete"
+
+            android:id="@+id/btn_Delete_PC"
+
+            android:layout_marginRight="@dimen/d_size_15dp"
+            android:layout_gravity="center_vertical|right" />
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
