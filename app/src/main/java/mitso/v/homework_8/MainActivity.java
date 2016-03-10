@@ -1,9 +1,9 @@
 package mitso.v.homework_8;
 
 /**    У мене різні дії з RecyclerView в різних класах.
- *     Треба було декілька інтерфейсів, щоб описати всі дії.
+ *     Треба було 2 інтерфейса, щоб описати всі дії.
  *     Я реалізував один просто для прикладу.
- *     CreateActivity implements RecyclerViewActions.
+ *     MainActivity implements RecyclerViewActions.
  */
 
 import android.content.Intent;
@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import mitso.v.homework_8.models.Person;
 import mitso.v.homework_8.recyclerView.PersonAdapter;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements RecyclerViewActions {
 
     public static PersonAdapter personAdapter;
 
@@ -56,8 +56,13 @@ public class MainActivity extends AppCompatActivity {
         if (resultCode == RESULT_OK && requestCode == Constants.REQUEST_ACTIVITY_CREATE) {
             Bundle bundle = data.getExtras();
             Person person = (Person) bundle.getSerializable(Constants.BUNDLE_PERSON_CREATE);
-            personAdapter.addPerson(person);
-            personAdapter.notifyItemInserted(personAdapter.getAllPersons().size() - 1);
+            addPerson(person);
         }
+    }
+
+    @Override
+    public void addPerson(Person person) {
+        personAdapter.addPerson(person);
+        personAdapter.notifyItemInserted(personAdapter.getAllPersons().size() - 1);
     }
 }

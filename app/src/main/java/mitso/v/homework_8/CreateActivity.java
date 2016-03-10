@@ -11,7 +11,7 @@ import android.widget.EditText;
 
 import mitso.v.homework_8.models.Person;
 
-public class CreateActivity extends AppCompatActivity implements RecyclerViewActions {
+public class CreateActivity extends AppCompatActivity {
 
     private EditText mEditText_FirstName;
     private EditText mEditText_LastName;
@@ -67,8 +67,7 @@ public class CreateActivity extends AppCompatActivity implements RecyclerViewAct
         finish();
     }
 
-    @Override
-    public Person createPerson() {
+    private Person createPerson() {
         Person person = new Person();
         String firstNameString = mEditText_FirstName.getText().toString();
         if (!firstNameString.isEmpty())
